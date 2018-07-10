@@ -41,8 +41,7 @@ Manifest :
 Program description :
 
 
-I used HashMap as accessing data from it is very easy (with key) and fast (if looking for running time o(1)).
-I stored data in a HashMap.
+I used HashMap to access data as it is fast to access data.
 The basic structure is HashMap<String 1, HashMap<String 2, HashMap<Boolean, Float>>> which has all information.
 The String 1 is key which are all the vertices with edges as key and HashMap as value(Vertex with no edges from them are ignored).
 The String 2 is in innerMap is second vertex which are connected from String 1.
@@ -86,8 +85,6 @@ The program has no errors or even suggestions as far as I see in the IDE.
 Known Bugs :
 
 -> The query typed does not have to be captilized as the program converts it to lower case.
--> So even the printing is shown in lower case letters. (only for easiness of user).
--> Reachable sometimes give NullPointerException.
 -> Many methods tried are commented out for future use.
 
 ---------------------------------------------------------------------------------------------------------------------------------
